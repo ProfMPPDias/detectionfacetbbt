@@ -28,7 +28,7 @@ pip install keras opencv-python pillow numpy matplotlib
 
 # Execute o código:
 
--O código irá carregar a imagem fornecida e usar o OpenCV para detectar os rostos presentes nela.
+- O código irá carregar a imagem fornecida e usar o OpenCV para detectar os rostos presentes nela.
 - Para cada rosto detectado, o código utilizará o modelo de rede neural para classificar o rosto e atribuir a ele um rótulo correspondente a um personagem do The Big Bang Theory.
 - O código desenhará um retângulo ao redor de cada rosto e exibirá o nome do personagem detectado com a confiança do modelo.
 
@@ -36,6 +36,8 @@ pip install keras opencv-python pillow numpy matplotlib
 
 - A imagem com as caixas de rosto e rótulos será exibida.
 - A imagem processada será salva e você poderá fazer o download da imagem com as marcações.
+
+![Detection Face TBBT](https://github.com/ProfMPPDias/detectionfacetbbt/blob/main/output/marked_image_with_background.jpg)
 
 # Estrutura do Código
 
